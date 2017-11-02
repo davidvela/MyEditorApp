@@ -1,0 +1,43 @@
+{
+  "title" : "Ingredient List",
+  "showFooter" : false,
+  "headerExpanded": true,
+  "titleClickable": true,
+  "ProductCollection": [
+    { 
+      "ProductId": "1239102",
+      "Name": "Milk",
+      "Category": "A",
+      "SupplierName": "drinks"
+    },
+    {
+      "ProductId": "1239103",
+      "Name": "honey",
+      "Category": "B",
+      "SupplierName": "drinks"
+    },
+    {
+      "ProductId": "1239104",
+      "Name": "bread",
+      "Category": "A",
+      "SupplierName": "food"
+    }
+  ],
+  "ProductSuppliers" : [
+    {
+      "key" : "",
+      "name" : "All"
+    },
+    {
+      "key" : "drinks",
+      "name" : "drinks"
+    },
+    {
+      "key" : "food",
+      "name" : "food"
+    }
+  ],
+  "Filter" : {
+    "text": "Filtered by: nothing"
+  }
+}

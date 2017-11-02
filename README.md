@@ -8,5 +8,7 @@ This webapp will be able to generate dynamic data for my experiments in DL.
 
 For the time 
 * Import excel to the master 
+	* layout - 
+	* functionallity
 * Dynamic table 
-* Export to JSON 
+* Export to JSON

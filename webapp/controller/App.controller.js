@@ -3,7 +3,7 @@ sap.ui.define([
 ], function(Controller) {
 	"use strict";
 
-	return Controller.extend("edMyEditorApp.controller.master", {
+	return Controller.extend("edMyEditorApp.controller.App", {
 
 	});
 });

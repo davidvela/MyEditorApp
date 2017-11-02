@@ -5,7 +5,7 @@
 		<f:title>
 			<f:DynamicPageTitle>
 				<f:heading>
-					<Title text="My Products"/>
+					<Title text="My Ingredients"/>
 				</f:heading>
 				<f:actions>
 					<ToolbarSpacer/>
@@ -22,19 +22,7 @@
 				<f:content>
 					<layout:Grid defaultSpan="XL4 L6 M6 S12">
 						<layout:VerticalLayout>
-							<Label text="Name:"/>
-							<Select id="slName" width="200px" forceSelection="true" change="onSelectChange" items="{ path: '/ProductNames' }">
-								<core:Item key="{key}" text="{name}"/>
-							</Select>
-						</layout:VerticalLayout>
-						<layout:VerticalLayout>
-							<Label text="Category:"/>
-							<Select id="slCategory" width="200px" change="onSelectChange" forceSelection="true" items="{ path: '/ProductCategories' }">
-								<core:Item key="{key}" text="{name}"/>
-							</Select>
-						</layout:VerticalLayout>
-						<layout:VerticalLayout>
-							<Label text="SupplierName:"/>
+							<Label text="Type:"/>
 							<Select id="slSupplierName" width="200px" change="onSelectChange" forceSelection="true" items="{ path: '/ProductSuppliers' }">
 								<core:Item key="{key}" text="{name}"/>
 							</Select>
