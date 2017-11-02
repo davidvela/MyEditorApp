@@ -33,22 +33,22 @@
 		</f:header>
 		<!-- DynamicPage Content -->
 		<f:content>
-			<Table id="idProductsTable" inset="false" items="{ path: '/ProductCollection' }">
+			<Table id="idProductsTable" inset="false" mode="MultiSelect" items="{ path: '/ProductCollection' }">
 				<columns>
 					<Column minScreenWidth="Tablet" demandPopin="true">
 						<Text text="Name"/>
 					</Column>
-					<Column minScreenWidth="Tablet" demandPopin="true">
+					<Column minScreenWidth="720px" >
 						<Text text="Category"/>
 					</Column>
-					<Column minScreenWidth="Tablet" demandPopin="true">
+					<Column minScreenWidth="720px" >
 						<Text text="SupplierName"/>
 					</Column>
 				</columns>
 				<items>
-					<ColumnListItem vAlign="Middle" type="Navigation" press="handleItemPress">
-						<cells>
-							<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+					<ColumnListItem vAlign="Middle"  press="handleItemPress">
+						<cells > <Text text="{Name}"/>
+							<!--<ObjectIdentifier title="{Name}" text="{ProductId}" />-->
 							<Text text="{Category}"/>
 							<Text text="{SupplierName}"/>
 						</cells>
