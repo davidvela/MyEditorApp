@@ -15,7 +15,7 @@
 		<uxap:headerContent>
 			<layout:VerticalLayout>
 				<Text text="{detail>/ProductId}"/>
-				<Text text="{detail>/SupplierName}"/>
+				<Text text="{detail>/Type}"/>
 			</layout:VerticalLayout>
 			<layout:VerticalLayout>
 				<Label text="Your product has been dispatched to:"/>
@@ -51,7 +51,7 @@
 										<Text text="Category"/>
 									</Column>
 									<Column minScreenWidth="Tablet" demandPopin="true">
-										<Text text="SupplierName"/>
+										<Text text="Type"/>
 									</Column>
 								</columns>
 								<items>
@@ -59,7 +59,7 @@
 										<cells>
 											<ObjectIdentifier title="{detailDetail>Name}" text="{detailDetail>ProductId}"/>
 											<Text text="{detailDetail>Category}"/>
-											<Text text="{detailDetail>SupplierName}"/>
+											<Text text="{detailDetail>Type}"/>
 										</cells>
 									</ColumnListItem>
 								</items>

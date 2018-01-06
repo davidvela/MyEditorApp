@@ -23,7 +23,7 @@
 					<layout:Grid defaultSpan="XL4 L6 M6 S12">
 						<layout:VerticalLayout>
 							<Label text="Type:"/>
-							<Select id="slSupplierName" width="200px" change="onSelectChange" forceSelection="true" items="{ path: '/ProductSuppliers' }">
+							<Select id="slSupplierName" width="200px" change="onSelectChange" forceSelection="true" items="{ path: '/ProductTypes' }">
 								<core:Item key="{key}" text="{name}"/>
 							</Select>
 						</layout:VerticalLayout>
@@ -42,7 +42,7 @@
 						<Text text="Category"/>
 					</Column>
 					<Column minScreenWidth="720px" >
-						<Text text="SupplierName"/>
+						<Text text="Type"/>
 					</Column>
 				</columns>
 				<items>
@@ -50,7 +50,7 @@
 						<cells > <Text text="{Name}"/>
 							<!--<ObjectIdentifier title="{Name}" text="{ProductId}" />-->
 							<Text text="{Category}"/>
-							<Text text="{SupplierName}"/>
+							<Text text="{Type}"/>
 						</cells>
 					</ColumnListItem>
 				</items>

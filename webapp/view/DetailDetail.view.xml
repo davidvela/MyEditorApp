@@ -16,7 +16,7 @@
 		<uxap:headerContent>
 			<layout:VerticalLayout>
 				<Text text="{detail>/ProductId}"/>
-				<Text text="{detail>/SupplierName}"/>
+				<Text text="{detail>/Type}"/>
 			</layout:VerticalLayout>
 			<layout:VerticalLayout>
 				<Label text="{i18n>detail.header.dispatch}"/>

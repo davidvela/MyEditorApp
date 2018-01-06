@@ -6,9 +6,13 @@ sap.ui.define([
 	"use strict";
 	return Controller.extend("edMyEditorApp.controller.Master", {
 		onInit: function() {
-			this.aKeys = ["Name", "Category", "SupplierName"];
-			this.oSelectName = this.getSelect("slName");
-			this.oSelectCategory = this.getSelect("slCategory");
+			
+			this.aKeys = ["Type"];
+			//this.aKeys = ["Name", "Category", "Type"];
+			
+			//this.oSelectName = this.getSelect("slName");
+			//this.oSelectCategory = this.getSelect("slCategory");
+			
 			this.oSelectSupplierName =
 				this.getSelect("slSupplierName");
 		},
@@ -18,8 +22,8 @@ sap.ui.define([
 		},
 		onSelectChange: function() {
 			var aCurrentFilterValues = [];
-			aCurrentFilterValues.push(this.getSelectedItemText(this.oSelectName));
-			aCurrentFilterValues.push(this.getSelectedItemText(this.oSelectCategory));
+			//aCurrentFilterValues.push(this.getSelectedItemText(this.oSelectName));
+			//aCurrentFilterValues.push(this.getSelectedItemText(this.oSelectCategory));
 			aCurrentFilterValues.push(this.getSelectedItemText(this.oSelectSupplierName));
 			this.filterTable(aCurrentFilterValues);
 		},

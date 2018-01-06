@@ -8,22 +8,22 @@
       "ProductId": "1239102",
       "Name": "Milk",
       "Category": "A",
-      "SupplierName": "drinks"
+      "Type": "drinks"
     },
     {
       "ProductId": "1239103",
       "Name": "honey",
       "Category": "B",
-      "SupplierName": "drinks"
+      "Type": "drinks"
     },
     {
       "ProductId": "1239104",
       "Name": "bread",
       "Category": "A",
-      "SupplierName": "food"
+      "Type": "food"
     }
   ],
-  "ProductSuppliers" : [
+  "ProductTypes" : [
     {
       "key" : "",
       "name" : "All"
