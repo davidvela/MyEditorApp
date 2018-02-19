@@ -31,23 +31,27 @@
 				</f:content>
 			</f:DynamicPageHeader>
 		</f:header>
-		<!-- DynamicPage Content -->
+		<!-- DynamicPage Content 
+			mode="MultiSelect" -> no navigation //  MultiToggle// 
+			type = "Navigation"-> mode = no multiselec
+				column 1 =  minScreenWidth="Tablet" -->
 		<f:content>
-			<Table id="idProductsTable" inset="false" mode="MultiSelect" items="{ path: '/ProductCollection' }">
+			<Table id="idProductsTable"  mode="MultiSelect"  inset="false"  items="{ path: '/ProductCollection' }">
 				<columns>
-					<Column minScreenWidth="Tablet" demandPopin="true">
-						<Text text="Name"/>
+					<Column demandPopin="true" width="11rem">
+						<Text text="Name" wrapping="false"/>
 					</Column>
-					<Column minScreenWidth="720px" >
+					<Column minScreenWidth="720px" width="11rem" >
 						<Text text="Category"/>
 					</Column>
-					<Column minScreenWidth="720px" >
+					<Column minScreenWidth="720px" width="11rem" >
 						<Text text="Type"/>
 					</Column>
 				</columns>
 				<items>
-					<ColumnListItem vAlign="Middle"  press="handleItemPress">
-						<cells > <Text text="{Name}"/>
+					<ColumnListItem vAlign="Middle"  press="handleItemPress" type = "Navigation">
+						<cells > 
+							<Text text="{Name}"/>
 							<!--<ObjectIdentifier title="{Name}" text="{ProductId}" />-->
 							<Text text="{Category}"/>
 							<Text text="{Type}"/>
