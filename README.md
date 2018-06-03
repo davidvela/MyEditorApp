@@ -21,3 +21,4 @@ delete old branch ... <br>
 -- gitignore node_modules <br>
 -- gitignore dist // execution of grunt! 
 -- experiment - running grunt locally! 
+-- still working on wifs
