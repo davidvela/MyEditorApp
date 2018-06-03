@@ -49,7 +49,7 @@ sap.ui.define([
 				"detaildetail-item": oData.ProductId,
 				"detail-item": this._itemDetail
 			});
-
+			
 		}
 	});
 });

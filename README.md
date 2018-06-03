@@ -13,9 +13,11 @@ For the time
 * Dynamic table 
 * Export to JSON
 
-new import to webide
-delete old branch ... 
--- 2018 may: migrate project to webide full stack...
+new import to webide<br>
+delete old branch ... <br>
+-- 2018 may: migrate project to webide full stack... <br>
 
 # WEB IDE FULL STACK! 
-
+-- gitignore node_modules <br>
+-- gitignore dist // execution of grunt! 
+-- experiment - running grunt locally! 
