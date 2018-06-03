@@ -12,3 +12,6 @@ For the time
 	* functionallity
 * Dynamic table 
 * Export to JSON
+
+
+-- 2018 may: migrate project to webide full stack... 
